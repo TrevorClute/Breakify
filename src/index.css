@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input {
+  padding: 5px;
+  border: black ;
+  background-color: #787878;
+  color:aliceblue;
+  border-radius: 20px;
+  text-align: center;
+  transition: 0.445s cubic-bezier(0.075, 0.82, 0.165, 1) ;
+}
+
+.input:hover{
+  border-radius: 4px;
+}
+.input:focus{
+  outline: none;
+  box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+}
+
+.breakingbad {
+  top:25vh;
+  margin: 0 auto;
+  font-size: 90px;
+  color:#fcfcfc;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
